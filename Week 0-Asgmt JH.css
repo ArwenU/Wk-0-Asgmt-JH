@@ -1,0 +1,79 @@
+body {
+	background-color: #4631E9;
+	font-family: Tahoma;  
+}
+
+.header {
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 4px 55px 0px 55px;
+}
+
+.main-top {
+	color: white;
+	display: flex;
+	padding: 0px 265px 0px 205px;
+	flex-wrap: wrap;
+	height: 600px;
+	align-items: center;
+}
+
+.main-pagebreak {
+	color: #C6CACA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 0px 50px 0px;
+}
+
+.main-bottom {
+	color: white;
+	display: flex;
+	padding: 50px 350px 0px 250px;
+}
+
+input[type='button'] {
+	padding: 11px 28px;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 35px;
+	background: rgb(255,183,45);
+	background: linear-gradient(90deg, rgba(255,183,45,1) 0%, rgba(254,163,60,1) 50%, rgba(255,128,33,1) 100%);
+	color: white;
+	font-size: 15px;
+}
+
+a:visited {
+	color: #C6CACA;
+}
+
+a:hover {
+	color: pink;
+}
+
+.headline-1 {
+	font-size: 25px;
+	margin: 0px;
+}
+
+.headline-2 {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 4px;
+}
+
+.paragraph-1 {
+	font-size: 16px;
+	color: #C6CACA;
+}
+
+.paragraph-2 {
+	font-size: 10px;
+	color: #C6CACA;
+}
+
+.bottom-headers {
+	font-size: 20px;
+	font-weight: bold;
+}
